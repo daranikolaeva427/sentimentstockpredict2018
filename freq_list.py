@@ -8,7 +8,7 @@ def BMP(s):
 i = 0
 j = 0
 wordlist = []
-f = open("/Users/anna/Documents/учеба/4курс/диплом/postsl.txt", encoding = 'utf-8')
+f = open("lemmatised.txt", encoding = 'utf-8')
 for line in f:
     for item in funct_gen(line):
         word = item.string
@@ -21,5 +21,4 @@ print(i)
 print(j)
 
 cntr = Counter(wordlist)
-first1000 = cntr.most_common(1000)
-print(first1000)
+print(cntr)
