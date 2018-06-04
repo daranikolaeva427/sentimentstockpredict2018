@@ -2,9 +2,6 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.cross_validation import train_test_split
 from sklearn import svm
 from sklearn.metrics import classification_report
-import sys
-import os
-import time
 
 '''
 importing data
